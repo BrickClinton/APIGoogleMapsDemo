@@ -1,0 +1,96 @@
+.owl-carousel.owl-theme {
+  border: 0px solid rgb(135, 197, 222);
+}
+
+.owl-carousel .owl-width {
+  width: 450px;
+}
+
+.owl-carousel .owl-height {
+  height: 270px;
+}
+
+/* Navegación */
+.owl-carousel .owl-nav {
+  position: absolute;
+  background: transparent;
+  color: cornsilk;
+  width: 100%;
+  left: -0.1%;
+  top: calc((100% - 2%) / 2);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+  background: rgba(59, 63, 63, 0.877) !important;
+  color: #ccc !important;
+  border-radius: 6px !important;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.owl-carousel .owl-prev:hover,
+.owl-carousel .owl-next:hover {
+  opacity: 1;
+}
+
+.owl-carousel .owl-prev {
+  left: 0;
+}
+
+.owl-carousel .owl-next {
+  right: 0;
+}
+
+.owl-carousel .disabled {
+  visibility: hidden;
+}
+
+/* Icono span (prev, next) */
+.owl-carousel .owl-nav span {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center !important;
+  line-height: calc((100% -48px) / 2);
+}
+
+/* Contenido de los items */
+/* .owl-stage{
+    border: 1px solid rgb(60, 255, 0) !important;
+} */
+
+/* .owl-stage-outer{
+    border: 1px solid red !important;
+} */
+
+.owl-carousel .owl-item {
+  background: transparent;
+  max-width: 390px;
+  min-width: 150px;
+  width: auto;
+  max-height: 390px;
+  min-height: 180px;
+  height: auto;
+}
+
+@media (max-width: 880px) {
+  .owl-carousel .owl-nav {
+    display: none;
+    top: calc((100% - 30px) / 2);
+  }
+
+  .owl-carousel .owl-prev {
+    left: 8px;
+  }
+
+  .owl-carousel .owl-next {
+    right: 8px;
+  }
+
+}

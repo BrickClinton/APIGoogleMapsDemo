@@ -1,0 +1,169 @@
+.geo{
+  padding-left: 8em;
+  padding-right: 8em;
+  margin-top: 7em;
+}
+
+.geo h2{
+  margin: 1.5em;
+  font-size: 1.7em;
+}
+
+
+
+/*CONTENIDO IZQUIERDO*/
+
+.geo-info{
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info-col{
+  flex-basis: 28%;
+  width: 100%;
+}
+
+.geo-intro{
+  background: #ffffff; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgb(207, 207, 207);
+  height: 49.5%;
+  overflow-y: scroll;
+}
+
+
+.geo-intro hr{
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 24px 0;
+}
+
+
+.txt{
+  background: #ffffff;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px rgb(207, 207, 207);
+}
+.txt h3{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.card-geo{
+  width: 27em;
+  height: 8em;
+  border-radius: 5px;
+  background-color: rgba(200, 200, 200, 0.281);
+  margin-bottom: 15px;
+}
+
+.iman{
+  width: 8em;
+  height: 6em;
+  border-radius: 5px;
+  background-color: rgba(167, 167, 167, 0.281);
+  margin-left: 1em;
+  margin: 1em;
+}
+.iman img{
+  width: 7em;
+  height: 5em;
+  margin: 6px;
+}
+
+.info-info{
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.iman{
+  flex-basis: 35%;
+}
+ .info{
+   flex: 60%;
+   margin: 1em;
+ }
+
+
+ .info h5{
+  font-size: 15px;
+ }
+ .info h3{
+  font-size: 20px;
+ }
+ .info h5 button{
+  margin-left: 9em;
+  font-size: 12px;
+ }
+
+ .linea1{
+   display: inline-flex;
+ }
+.star{
+  margin-left: 3em;
+  color: rgb(235, 202, 17);
+}
+
+
+
+
+/*CONTENIDO DERECHO*/
+
+.post-col{
+  flex-basis: 70%;
+}
+
+.geo-der{
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px rgb(207, 207, 207);
+}
+
+.geo-der h3{
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+iframe{
+  width: 100%;
+}
+
+
+
+@media (max-width: 780px) {
+  .geo-info{
+    display: block;
+  }
+
+}
+
+
+.dark-mode .txt{
+  background: var(--gray-dark);
+  box-shadow: 1px 1px 20px var(--dark);
+
+}
+
+.dark-mode .geo-intro{
+  background: var(--gray-dark);
+  box-shadow: 1px 1px 20px var(--dark);
+
+}
+
+.dark-mode .geo-der{
+  background: var(--gray-dark);
+  box-shadow: 1px 1px 20px var(--dark);
+
+}

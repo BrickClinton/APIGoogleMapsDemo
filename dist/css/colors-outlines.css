@@ -1,0 +1,263 @@
+
+:root{
+  --bg-aliceBlue:#F0F8FF;
+  --bg-antiqueWhite:#FAEBD7;
+  --bg-aquamarine:#7FFFD4;
+  --bg-azure:#F0FFFF;
+  --bg-beige:#F5F5DC;
+  --bg-bisque:#FFE4C4;
+  --bg-violet:#8A2BE2;
+  --bg-brown:#A52A2A;
+  --bg-burlyWood:#DEB887;
+  --bg-cadetBlue:#5F9EA0;
+  --bg-chartreuse:#7FFF00;
+  --bg-chocolate:#D2691E;
+  --bg-coral:#FF7F50;
+  --bg-cornflowerBlue:#6495ED;
+  --bg-crimson:#DC143C;
+  --bg-darkCyan:#008B8B;
+  --bg-goldenrod:#DAA520;
+  --bg-dark-goldenrod:#B8860B;
+  --bg-dark-green:#006400;
+  --bg-dark-khaki:#BDB76B;
+  --bg-dark-oliveGreen:#006400;
+  --bg-dark-orange:#FF8C00;
+  --bg-dark-red:#8B0000;
+  --bg-dark-seagreen:#8FBC8F;
+  --bg-dark-salmon:#E9967A;  
+  --bg-dark-slateBlue:#483D8B;
+  --bg-deepSkyBlue:#00BFFF;
+  --bg-fireBrick:#B22222;
+  --bg-indianRed:#CD5C5C;
+  --bg-indigo:#4B0082;
+  --bg-steelBlue:#4682B4;
+  --bg-teal:#008080;
+}
+
+.outline-aliceBlue{
+  border-top: 3px solid #F0F8FF !important;
+}
+.outline-antiqueWhite{
+  border-top: 3px solid #FAEBD7 !important;
+}
+.outline-aquamarine{
+  border-top: 3px solid #44cc9faf !important;
+}
+.outline-azure{
+  border-top: 3px solid #F0FFFF !important;
+}
+.outline-beige{
+  border-top: 3px solid #F5F5DC !important;
+}
+.outline-bisque{
+  border-top: 3px solid #FFE4C4 !important;
+}
+.outline-blueViolet{
+  border-top: 3px solid #892be2ab !important;
+}
+.outline-brown{
+  border-top: 3px solid #a52a2acb !important;
+}
+.outline-burlyWood {
+  border-top: 3px solid #DEB887 !important;
+}
+.outline-cadetBlue{
+  border-top: 3px solid #62abade0 !important;
+}
+.outline-chartreuse {
+  border-top: 3px solid #78c22fc5 !important;
+}
+.outline-chocolate {
+  border-top: 3px solid #cc6a23e5 !important;
+}
+/* .outline-chocolate i.icon-service{
+  color: #cc6a23e5 !important;
+} */
+.outline-coral {
+  border-top: 3px solid #e47046b4 !important;
+}
+.outline-cornflowerBlue{
+  border-top:3px solid  #5f8de2b9 !important;
+}
+.outline-crimson {
+  border-top: 3px solid #c04059d0 !important;
+}
+.outline-dark-cyan {
+  border-top: 3px solid #078a8ac7 !important;
+}
+.outline-goldenrod {
+  border-top: 3px solid #c09426d0 !important;
+}
+.outline-dark-goldenrod {
+  border-top: 3px solid #B8860B !important;
+}
+.outline-dark-green {
+  border-top: 3px solid #046304b6 !important;
+}
+.outline-dark-khaki{
+  border-top: 3px solid #BDB76B !important;
+}
+.outline-dark-oliveGreen{
+  border-top: 3px solid #066906be !important;
+}
+.outline-dark-orange {
+  border-top: 3px solid #ff8c009d !important;
+}
+.outline-dark-red {
+  border-top: 3px solid #851313d8 !important;
+}
+.outline-dark-salmon {
+  border-top: 3px solid #e9967ad3 !important;
+}
+.outline-dark-seaGreen {
+  border-top: 3px solid #8fbc8fe8 !important;
+}
+.outline-dark-slateBlue {
+  border-top: 3px solid #5a5292e3 !important;
+}
+.outline-deepSkyBlue{
+  border-top: 3px solid #19aadac0 !important;
+}
+.outline-fireBrick {
+  border-top: 3px solid #a32929d0 !important;
+}
+.outline-indianRed {
+  border-top: 3px solid #be5a5aee !important;
+}
+.outline-indigo {
+  border-top: 3px solid #660ea5d5 !important;
+}
+.outline-steelBlue {
+  border-top: 3px solid #4682B4 !important;
+}
+.outline-teal {
+  border-top: 3px solid #008080e7 !important;
+}
+.outline-paleVioletRed {
+  border-top: 3px solid rgb(228, 121, 156) !important;
+}
+.outline-darkMagenta {
+  border-top: 3px solid rgb(177, 2, 177) !important;
+}
+.outline-slateGray {
+  border-top: 3px solid SlateGray !important;
+}
+.outline-mediumSeaGreen {
+  border-top: 3px solid MediumSeaGreen !important;
+}
+.outline-lightSeaGreen {
+  border-top: 3px solid LightSeaGreen !important;
+}
+
+/* MODE DARK */
+.dark-mode .outline-aliceBlue{
+  border-top: 3px solid #2a2b2c !important;
+}
+.dark-mode .outline-antiqueWhite{
+  border-top: 3px solid #dac1a0c9 !important; 
+}
+.dark-mode .outline-aquamarine{
+  border-top: 3px solid #44cc9f70 !important;
+}
+.dark-mode .outline-beige{
+  border-top:3px solid  #f5f5dc69 !important;
+}
+.dark-mode .outline-bisque{
+  border-top: 3px solid #ffe4c473 !important;
+}
+.dark-mode .outline-blueViolet{
+  border-top: 3px solid #8633d388 !important;
+}
+.dark-mode .outline-brown{
+  border-top: 3px solid #a52a2a7e !important;
+}
+.dark-mode .outline-burlyWood {
+  border-top: 3px solid #deb8877a !important;
+}
+.dark-mode .outline-cadetBlue{
+  border-top: 3px solid #5f9ea098 !important;
+}
+.dark-mode .outline-chartreuse {
+  border-top: 3px solid #72ca1a57 !important;
+}
+.dark-mode .outline-chocolate {
+  border-top:3px solid  #d2691e75 !important;
+}
+/* .dark-mode .outline-chocolate i.icon-service{
+  color: #d2691eb4 !important;
+} */
+.dark-mode .outline-coral {
+  border-top: 3px solid #ff7f5069 !important;
+}
+.dark-mode .outline-cornflowerBlue{
+  border-top: 3px solid #6494ed60 !important;
+}
+.dark-mode .outline-crimson {
+  border-top: 3px solid #dc143c5d !important;
+}
+.dark-mode .outline-dark-cyan {
+  border-top: 3px solid #008b8b5d !important;
+}
+.dark-mode .outline-goldenrod {
+  border-top: 3px solid #daa5205e !important;
+}
+.dark-mode .outline-dark-goldenrod {
+  border-top: 3px solid #af800a79 !important;
+}
+.dark-mode .outline-dark-green {
+  border-top: 3px solid #0264026c !important;
+}
+.dark-mode .outline-dark-khaki{
+  border-top: 3px solid #bdb76b7e !important;
+}
+.dark-mode .outline-dark-oliveGreen{
+  border-top: 3px solid #00640085 !important;
+}
+.dark-mode .outline-dark-orange {
+  border-top: 3px solid #ff8c0059 !important;
+}
+.dark-mode .outline-dark-red {
+  border-top:3px solid  #8b00007e !important;
+}
+.dark-mode .outline-dark-salmon {
+  border-top: 3px solid #e9967a83 !important;
+}
+.dark-mode .outline-dark-seaGreen {
+  border-top: 3px solid #8fbc8f7e !important;
+}
+.dark-mode .outline-dark-slateBlue {
+  border-top: 3px solid #50468bce !important;
+}
+.dark-mode .outline-deepSkyBlue{
+  border-top: 3px solid #1eabda63 !important;
+}
+.dark-mode .outline-fireBrick {
+  border-top:3px solid  #b2222279 !important;
+}
+.dark-mode .outline-indianRed {
+  border-top: 3px solid #cd5c5c81 !important;
+}
+.dark-mode .outline-indigo {
+  border-top: 3px solid #5105889c !important;
+}
+.dark-mode .outline-steelBlue {
+  border-top: 3px solid #437aa7e1 !important;
+}
+.dark-mode .outline-teal {
+  border-top:3px solid  #00808081 !important;
+}
+.dark-mode .outline-paleVioletRed {
+  border-top: 3px solid PaleVioletRed !important;
+}
+.dark-mode .outline-darkMagenta {
+  border-top: 3px solid rgb(161, 2, 161) !important;
+}
+.dark-mode .outline-slateGray {
+  border-top: 3px solid rgb(88, 101, 114) !important;
+}
+.dark-mode .outline-mediumSeaGreen {
+  border-top: 3px solid rgb(51, 155, 98) !important;
+}
+.dark-mode .outline-lightSeaGreen {
+  border-top: 3px solid rgb(25, 148, 142) !important;
+}
