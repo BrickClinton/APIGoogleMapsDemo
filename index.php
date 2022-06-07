@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="./plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
 
+  <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+
 
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.css">
@@ -329,7 +331,12 @@
 <script src="./plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
 <script src="./plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
 <!-- /. plugins - Datatable -->
+
+<!-- sweet Alert 2 -->
+<script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+
 <script src="dist/js/utility.js"></script>
+<script src="dist/js/sweet-alert-2.js"></script>
 
 <!-- Cargar pagina incrustada -->
 <script src="./dist/js/loadweb.js"></script>

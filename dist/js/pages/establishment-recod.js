@@ -80,7 +80,7 @@ $("#province").change(function () {
 // Guardar o actualizar
 $("#btn-save").click(function () {
   if (dataIsIconmplete()) {
-    alert("Complete los datos");
+    sweetAlertWarning("Complete los datos", "");
   } else {
 
     // Obteniendo los datos del formulario
@@ -98,9 +98,11 @@ $("#btn-save").click(function () {
     }
 
     // Confirmar el proceso
-    if (confirm("¿Estas seguro de " + message + " los datos?")) {
-      sendDataToServer(dataSend);
-    }
+    sweetAlertConfirmQuestionSave("¿Estas seguro de " + message + " los datos?").then(confirm => {
+      if(confirm.isConfirmed){
+        sendDataToServer(dataSend);
+      }
+});
   }
 });
 
@@ -183,18 +185,20 @@ $("#btn-cancel").click(function () {
 $("#data-establishment").on('click', '.btn-delete', function () {
   let idestablecimiento = $(this).attr('data-code');
 
-  if(confirm("¿Estas seguro de eliminar el registro?")){
-    $.ajax({
-      url: 'controllers/establishment.controller.php',
-      type: 'GET',
-      data: 'op=deleteEstablishment&idestablecimiento=' + idestablecimiento,
-      success: function(result){
-        if (result == ''){
-          listEstablishment();
+  sweetAlertConfirmQuestionDelete("¿Estas seguro de eliminar el registro?").then(confirm => {
+    if(confirm.isConfirmed){
+      $.ajax({
+        url: 'controllers/establishment.controller.php',
+        type: 'GET',
+        data: 'op=deleteEstablishment&idestablecimiento=' + idestablecimiento,
+        success: function(result){
+          if (result == ''){
+            listEstablishment();
+          }
         }
-      }
-    });
-  }
+      });
+    }
+  });
 });
 
 getDepartaments();
